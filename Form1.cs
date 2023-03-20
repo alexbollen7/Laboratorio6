@@ -174,5 +174,9 @@ namespace Laboratorio6
             labelMayorRecorrido.Text = lab;
         }
 
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            MessageBox.Show("Buen día");
+        }
     }
 }

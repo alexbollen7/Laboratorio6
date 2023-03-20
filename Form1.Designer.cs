@@ -42,6 +42,7 @@ namespace Laboratorio6
             this.dataGridViewAlquileres = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.labelMayorRecorrido = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVehiculos)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClientes)).BeginInit();
@@ -175,11 +176,22 @@ namespace Laboratorio6
             this.labelMayorRecorrido.TabIndex = 11;
             this.labelMayorRecorrido.Text = "...";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(850, 66);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Gm";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(966, 739);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.labelMayorRecorrido);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dataGridViewAlquileres);
@@ -217,6 +229,7 @@ namespace Laboratorio6
         private System.Windows.Forms.DataGridView dataGridViewAlquileres;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labelMayorRecorrido;
+        private System.Windows.Forms.Button button1;
     }
 }
 
