@@ -39,7 +39,7 @@ namespace Laboratorio6
 
         private void cargarVehiculos()
         {
-            string fileName = "Vehiculos.txt";
+            string fileName = @"..\..\Vehiculos.txt";
 
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(stream);
@@ -79,7 +79,7 @@ namespace Laboratorio6
 
         private void cargarAlquileres()
         {
-            string fileName = "Alquileres.txt";
+            string fileName = @"..\..\Alquileres.txt";
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(stream);
 
@@ -99,7 +99,7 @@ namespace Laboratorio6
 
         private void reescrialq()
         {
-            string fileName = "Alquileres.txt";
+            string fileName = @"..\..\Alquileres.txt";
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Write);
             StreamWriter writer = new StreamWriter(stream);
 

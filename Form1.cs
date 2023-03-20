@@ -46,7 +46,7 @@ namespace Laboratorio6
         private void cargarVehiculos()
         {
             vehiculos.Clear();
-            string fileName = "Vehiculos.txt";
+            string fileName = @"..\..\Vehiculos.txt";
 
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(stream);
@@ -72,7 +72,7 @@ namespace Laboratorio6
         private void cargarClientes()
         {
             clientes.Clear();
-            string fileName = "Clientes.txt";
+            string fileName = @"..\..\Clientes.txt";
 
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(stream);
@@ -122,7 +122,7 @@ namespace Laboratorio6
         {
             alquileres.Clear();
 
-            string fileName = "Alquileres.txt";
+            string fileName = @"..\..\Alquileres.txt";
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(stream);
 

@@ -33,7 +33,7 @@ namespace Laboratorio6
         }
         private void reescribirveh()
         {
-            string fileName = "Vehiculos.txt";
+            string fileName = @"..\..\Vehiculos.txt";
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Write);
             StreamWriter writer = new StreamWriter(stream);
 
@@ -74,7 +74,7 @@ namespace Laboratorio6
         }
         private void cargarVehiculos()
         {
-            string fileName = "Vehiculos.txt";
+            string fileName = @"..\..\Vehiculos.txt";
 
             FileStream stream = new FileStream(fileName, FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(stream);

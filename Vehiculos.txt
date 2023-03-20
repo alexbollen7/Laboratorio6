@@ -1,0 +1,10 @@
+P-123ABC
+Toyota
+2010
+Rojo
+1.85
+P-987FGH
+Kia
+2019
+Gris
+2.15
